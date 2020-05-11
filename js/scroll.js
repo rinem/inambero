@@ -26,3 +26,9 @@ $(document).ready(function () {
     Materialize.scrollFire(options);
 
 });
+
+function topFunction() {
+    console.log("triggered");
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
