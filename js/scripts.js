@@ -18,7 +18,7 @@ $(document).ready(function () {
             offset: 1500,
             callback: function () {
                 $('nav').removeClass('transparent');
-                $('nav').addClass('blue-grey darken-3');
+                $('nav').addClass('light-blue darken-3');
             }
         }
     ];
@@ -31,4 +31,4 @@ function topFunction() {
     console.log("triggered");
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-  }
+}
