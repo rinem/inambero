@@ -38,6 +38,10 @@
   z-index: 1;
 }
 
+nav {
+  opacity: 0.9;
+}
+
 
 @media (max-width: 600px) {
   .main-header {
