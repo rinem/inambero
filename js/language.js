@@ -1,3 +1,5 @@
+$(document).hide();
+
 $('[lang]').hide(); // hide all lang attributes on start.
 $('[lang="en"]').show(); 
 $('#language').click(function () { // put onchange event when user select option from select
@@ -48,7 +50,7 @@ function changeLanguage() {
 
 function changeLanguageMobile() {
     console.log("test");
-    if(document.getElementById("language-mobile").innerHTML === "Español") {
+    if(document.getElementById("language-mobile").innerHTML !== "Español") {
         document.getElementById("language-mobile").innerHTML = "English";
         document.getElementById("language").innerHTML = "English";
     }
