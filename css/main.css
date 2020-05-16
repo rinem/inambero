@@ -20,15 +20,12 @@
 
 
 .logo-img {
-  max-height: 64px !important;
-  padding: 5px 5px !important;
+  max-height: 50px !important;
+  padding: 2px 2px !important;
   margin-right: 10px;
   position: relative;
-  vertical-align: center;
+  vertical-align: middle;
 }
-
-
-
 
 .main-header .showcase {
   padding-top: 110px;
@@ -80,6 +77,6 @@ i {
   }
 
   nav .brand-logo {
-    padding-left: 25px;
+    padding-left: 3vw;
   }
 }
