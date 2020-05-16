@@ -18,6 +18,15 @@
   position: relative;
 }
 
+
+.logo-img {
+  max-height: 64px !important;
+  padding: 5px 5px !important;
+  position: relative;
+  vertical-align: center;
+}
+
+
 .main-header .showcase {
   padding-top: 110px;
 }
@@ -55,6 +64,11 @@ i {
 
 .card-testimonials {
   margin-top: 50px;
+}
+
+.mobile-brand {
+  display: block;
+  vertical-align: middle;
 }
 
 @media (max-width: 600px) {
