@@ -53,6 +53,10 @@ i {
   font-size: 20px;
 }
 
+.card-testimonials {
+  margin-top: 50px;
+}
+
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;

@@ -23,6 +23,16 @@ $(document).ready(function () {
         }
     ];
 
+    $('.carousel').carousel(
+        {
+          dist: 0,
+          padding: 0,
+          fullWidth: true,
+          indicators: true,
+          duration: 100,
+        }
+        );
+
     Materialize.scrollFire(options);
 
 });
@@ -32,3 +42,9 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+  
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 3000);
+}
+autoplay() 
