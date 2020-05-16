@@ -22,9 +22,12 @@
 .logo-img {
   max-height: 64px !important;
   padding: 5px 5px !important;
+  margin-right: 10px;
   position: relative;
   vertical-align: center;
 }
+
+
 
 
 .main-header .showcase {
@@ -63,7 +66,7 @@ i {
 }
 
 .card-testimonials {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .mobile-brand {
@@ -74,5 +77,9 @@ i {
 @media (max-width: 600px) {
   .main-header {
     height: 50vh;
+  }
+
+  nav .brand-logo {
+    padding-left: 25px;
   }
 }
